@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-07-15 21:33:09 +0900
-categories: jekyll update
+title:  "Hi"
+date:   2024-07-25 23:53:00 +0900
+categories: creative coding
 ---
 Hello world!
 
