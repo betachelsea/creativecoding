@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Hi"
 date:   2024-07-25 23:53:00 +0900
 categories: creative coding
