@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link href="{{ "/assets/css/style.css" | absolute_url }}" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+      <link rel="stylesheet" href="{{ "/assets/css/style.css" | absolute_url }}">
     </head>
     <body>
-        <header>
-          {% include navbar.html %}
-        </header>
-        <main>
-          <h1>default</h1>
-          {{ content }}
-        </main>
-        <footer>
-            <!-- Footer content goes here -->
-        </footer>
+      <header>
+        {% include navbar.html %}
+      </header>
+      <main>
+        <h1>default</h1>
+        {{ content }}
+      </main>
     </body>
 </html>

@@ -2,13 +2,11 @@
 layout: default
 ---
 
-<main>
-  hi, this is home
+hi, this is home
 
-  {% for post in site.posts %}
-    <aside>
-        <a href="{{ post.url | relative_url }}"><h3>{{ post.title | escape }}</h3></a>
-        <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-    </aside>
-  {% endfor %}
-</main>
+{% for post in site.posts %}
+  <aside>
+      <a href="{{ post.url | relative_url }}"><h3>{{ post.title | escape }}</h3></a>
+      <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
+  </aside>
+{% endfor %}
