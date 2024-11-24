@@ -1,5 +1,3 @@
 ---
-layout: home
+layout: list
 ---
-
-<h1>i am index </h1>
