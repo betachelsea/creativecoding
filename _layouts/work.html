@@ -11,11 +11,6 @@
     <body>
         <header>
           {% include navbar.html %}
-          <p>公開日: {{ page.date | date: "%Y年 %m月%d日" }}</p>
-          <p>title: {{ page.title }}</p>
-          {% if page.desc %}
-            <h2>{{ page.desc }}</h2>
-          {% endif %}
         </header>
         <main>
           {{ content }}

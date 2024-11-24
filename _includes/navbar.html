@@ -1,1 +1,8 @@
-<a href="/creativecoding/">LIST</a>
+<nav class="crumbs">
+  <ol>
+    <li class="crumb"><a href="/creativecoding/">LIST</a></li>
+    {% if page.title %}
+    <li class="crumb">{{ page.title }} ({{ page.date | date: "%Y-%m-%d" }})</li>
+    {% endif %}
+  </ol>
+</nav>
