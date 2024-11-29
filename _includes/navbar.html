@@ -5,4 +5,5 @@
     <li class="crumb">{{ page.title }} ({{ page.date | date: "%Y-%m-%d" }})</li>
     {% endif %}
   </ol>
+  {% if page.desc %}<p>{{ page.desc }}</p>{% endif %}
 </nav>
