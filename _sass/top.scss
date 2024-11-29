@@ -1,0 +1,18 @@
+@import './variables';
+
+ul.top-list {
+  list-style: none;
+  padding-left: 30px;
+  li {
+  }
+
+  h2 {
+    font-size: large;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: small;
+    color: $gray;
+    margin-top: 5px;
+  }
+}

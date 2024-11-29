@@ -4,9 +4,11 @@ layout: top
 
 {{ content }}
 
-{% for post in site.posts %}
-  <aside>
-      <a href="{{ post.url | relative_url }}"><h3>{{ post.title | escape }}</h3></a>
-      <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-  </aside>
-{% endfor %}
+<ul class="top-list">
+  {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url | relative_url }}"><h2>{{ post.title | escape }}</h2></a>
+        <p>{% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
+    </li>
+  {% endfor %}
+</ul>
