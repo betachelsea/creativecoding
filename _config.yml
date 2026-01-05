@@ -27,6 +27,8 @@ url: "https://betachelsea.github.io" # the base hostname & protocol for your sit
 twitter_username: beta_chelsea
 github_username: betachelsea
 
+timezone: Asia/Tokyo
+
 # Build settings
 theme: minima
 plugins:
