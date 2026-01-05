@@ -6,4 +6,7 @@
     {% endif %}
   </ol>
   {% if page.desc %}<p>{{ page.desc }}</p>{% endif %}
+  {% assign post_path = page.date | date: "%Y-%m-%d" | append: "-" | append: page.slug | append: ".md" %}
+  {% assign github_url = "https://github.com/betachelsea/creativecoding/blob/main/_posts/" | append: post_path | append: "?plain=1" %}
+  <p>Source: <a href="{{ github_url }}">{{ github_url }}</a></p>
 </nav>
