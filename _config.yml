@@ -33,6 +33,7 @@ timezone: Asia/Tokyo
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 sass:
   style: compressed
